@@ -1,0 +1,110 @@
+/* Colors and fonts */
+body {
+	background-color: #FBF5F3;
+	color: rosybrown;
+	font-weight: lighter;
+	font-family: 'Monoton', cursive;
+	font-size: 20px;
+	font-weight: 200;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Monoton', cursive;
+}
+
+h1 {
+	color: rosybrown;
+	font-size: 15px;
+	background: white;
+    padding: 60px;
+    margin: 20px;
+    box-shadow: 0px 10px 30px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+h2 {
+	color: rosybrown;
+	font-size: 30px;
+	font-weight: lighter;
+	font-weight: 500;
+}
+
+a {
+	font-family: 'Monoton', cursive;
+	text-decoration: none;
+	color: rosybrown;
+	font-weight: 10;
+	font-size: 15px;
+}
+
+a:hover {
+	color: black;
+}
+
+/* Custom design with class (99% of your design) */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+
+}
+ 
+.box-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10 px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%
+}
+
+.btn-blue {
+	background-color: rosybrown;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px
+}
+
+.btn-blue:hover {
+	background-color: #EBE9E9;
+	color:white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230, 230, 230);
+
+}
+
+.list-inline i:hover {
+	color: #EBE9E9;
+
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
